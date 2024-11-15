@@ -1,0 +1,27 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gilroy-Regular", sans-serif;
+  color: #ffffff;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: #111;
+  padding: 10px;
+}
+.page {
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  border-bottom: 10px solid #111;
+}
